@@ -1,0 +1,25 @@
+{
+  "name": "collaborative-whiteboard",
+  "version": "1.0.0",
+  "description": "A real-time collaborative whiteboard using Socket.IO and Vite.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "vite",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "socket.io",
+    "vite",
+    "express",
+    "whiteboard",
+    "collaborative"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "vite": "^5.0.0"
+  }
+}
